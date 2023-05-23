@@ -5,6 +5,20 @@ public class Main {
         int square = a * a;
         System.out.println("Square is: " + square);
     }
+public int addNumbers(int a, int b) {
+    int sum = a + b;
+    // return value
+    return sum;
+  }
+
+
+
+// create a method
+  public static int square1(int num) {
+
+    // return statement
+    return num * num;
+  }
 
 
     public void display1() {
