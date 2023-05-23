@@ -13,8 +13,16 @@ public class Main {
         // return statement
         return num * num;
     }
-    public static void main(String[] args) {
+    public void square1(int a) {
+  int square = a * a;
+  System.out.println("Square is: " + square);
+}
 
+
+public void display1() {
+    System.out.println("Method without parameter");
+  }
+    public static void main(String[] args) {
 
     }
 }
